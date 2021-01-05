@@ -3,13 +3,13 @@ This repository contrains three different methods implemented with MatLab for no
 
 
 ## Gradient descent method with Armijo line search (backtracking) step size strategy
-backtracking.m (function)
-Input:
-  x0:             - the initial value of x
-  eps:            - the tolerance for norm of the gradient
-                      If norm(gradient) < eps, then STOP
-  obj_func        - a pointer to objective function
-                      obj_func(x): scalar value
+  backtracking.m (function)
+  Input:
+    x0:             - the initial value of x
+    eps:            - the tolerance for norm of the gradient
+                        If norm(gradient) < eps, then STOP
+    obj_func        - a pointer to objective function
+                        obj_func(x): scalar value
   gradient_func   - a pointer to gradient function
                       gradient(x): a vector
 Output:
